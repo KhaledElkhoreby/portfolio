@@ -10,7 +10,10 @@ import {
 
 export default function Footer() {
   return (
-    <footer className="row row-cols-lg-3 row-cols-1 text-center gy-4">
+    <footer
+      id="footer"
+      className="row row-cols-lg-3 row-cols-1 text-center gy-4"
+    >
       <div className="col text-lg-start">
         <h3 className="text-uppercase">get in touch</h3>
         <ul className="list-unstyled ">
