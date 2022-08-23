@@ -1,4 +1,5 @@
 import React from 'react';
+import './Footer.scss';
 import OutLineBtn from '../../layout/buttons/OutLineBtn';
 import { IoMail } from 'react-icons/io5';
 import { HiIdentification } from 'react-icons/hi';
@@ -24,7 +25,7 @@ export default function Footer() {
             elkhorebykhaled@gmail.com
           </li>
           <li>
-            <span className="d-inline-block me-2 h4">
+            <span className="d-inline-block me-2 h4 ">
               <HiIdentification />
             </span>
             01090771131
